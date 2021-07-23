@@ -1,12 +1,25 @@
 body {background-color:black;font-family:arial;color:white}
-h1 {color:grey;font-family:verdana}
+h1 {color:grey;font-family:verdana;}
 
-.maindiv{
+.maindiv
+{
     background-color:white;
     color:black;
-    width:300px;
+    width:500px;
     padding:20px;
     border-radius:25px;
-    align-content:center;
+    margin: 0 auto;
 }
+
+.text
+{
+    width: 350px;
+    height: auto;
+    margin: 0 auto;
+    padding: 10px;
+    position: relative;
+
+}
+
+
 
