@@ -1,5 +1,24 @@
 body {background-color:black;font-family:arial;color:white}
 h1 {color:grey;font-family:verdana;}
+label
+{
+    display: inline-block;
+    width: 100px;
+    margin: 8px;
+}
+button
+{   
+    display: inline-block;
+    margin: 8px;
+
+}
+
+#result
+{
+    display: inline-block;
+    margin: 8px;
+}
+
 
 .maindiv
 {
@@ -13,13 +32,15 @@ h1 {color:grey;font-family:verdana;}
 
 .text
 {
-    width: 350px;
+    width: 400px;
     height: auto;
     margin: 0 auto;
     padding: 10px;
     position: relative;
 
 }
+
+
 
 
 

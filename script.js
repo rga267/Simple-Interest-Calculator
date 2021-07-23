@@ -8,13 +8,13 @@ function compute()
 
     var year = new Date().getFullYear()+parseInt(years);
 
-    document.getElementById("result").innerHTML="If you deposit "+principal+",\<br\>at an interest rate of "+rate+"%.\<br\>You will receive an amount of "+interest+",\<br\>in the year "+year+"\<br\>"
+    document.getElementById("result").innerHTML="If you deposit <mark>"+principal+"</mark>,\<br\>at an interest rate of <mark>"+rate+"%</mark>.\<br\>You will receive an amount of <mark>"+interest+"</mark>,\<br\>in the year <mark>"+year+"</mark>.\<br\>"
 }
         
 function updateRate()
 {
     var rate = document.getElementById("rate").value;
 
-    document.getElementById("rate_val").innerText=rate;
+    document.getElementById("rate_val").innerText=rate+'%';
 
 }
